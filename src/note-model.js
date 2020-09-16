@@ -1,11 +1,16 @@
+'use strict;';
+
 class Note {
 
   constructor(text) {
     this.newNote = text;
-  }
+  };
+
+  // addNote(text) {
+  //   this.newNote = text;
+  // };
 
   returnNote() {
-   var mynote = (this.newNote).toString()
-   return mynote
+   return this.newNote
   }
 };
