@@ -16,5 +16,6 @@
     notelist.addNote(note)
     assert.isTrue(notelist.viewNotes() === notelist.notes)
   }
+  
 
 })();

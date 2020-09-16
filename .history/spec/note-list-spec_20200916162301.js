@@ -14,7 +14,8 @@
     var note = new Note('i am note')
     var notelist = new Notelist
     notelist.addNote(note)
-    assert.isTrue(notelist.viewNotes() === notelist.notes)
+    assert.isTrue(notelist.viewNotes === this.notes)
   }
+  
 
 })();

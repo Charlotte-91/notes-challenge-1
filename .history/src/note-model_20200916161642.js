@@ -2,13 +2,13 @@
 
 class Note {
 
-  constructor() {
-    this.newNote;
-  };
-   
-  addNote(text) {
+  constructor(text) {
     this.newNote = text;
   };
+
+  // addNote(text) {
+  //   this.newNote = text;
+  // };
 
   returnNote() {
    return this.newNote

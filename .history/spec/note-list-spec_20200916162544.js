@@ -7,6 +7,7 @@
     var note = new Note('i am note')
     var notelist = new Notelist
     notelist.addNote(note)
+    console.log(note.newNote)
     assert.isTrue(notelist.notes.length === 1)
   }
 
@@ -14,7 +15,10 @@
     var note = new Note('i am note')
     var notelist = new Notelist
     notelist.addNote(note)
-    assert.isTrue(notelist.viewNotes() === notelist.notes)
+    console.log(notelist.notes)
+    console.log(notelist.viewNotes)
+    assert.isTrue(notelist.viewNotes === notelist.notes)
   }
+  
 
 })();

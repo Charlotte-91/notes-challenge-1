@@ -6,9 +6,5 @@ class Notelist {
 
   addNote(note) {
     this.notes.push(note)
-  };
-
-  viewNotes() {
-    return this.notes;
-  };
-};
+  }
+}
